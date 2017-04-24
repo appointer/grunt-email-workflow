@@ -7,8 +7,8 @@ body{
 }
 
 .body {
-  background-color: $grey;
   width: 100%;
+  background-color: $grey;
 }
 
 /* Set a max-width, and make it display as block so it will automatically stretch to that width, but will also shrink down on a phone or something */
@@ -16,9 +16,10 @@ body{
   display: block;
   Margin: 0 auto !important; /* makes it centered */
   max-width: $width;
-  padding: 10px;
+  padding: 30px;
   width: auto !important;
   width: $width;
+
 }
 
 /* This should also be a block element, so that it will fill 100% of the .container */
@@ -39,6 +40,7 @@ body{
   border: 1px solid darken($grey, 5);
   border-radius: $br;
   width: 100%;
+  box-shadow: 0 4px 15px rgba(8, 31, 10, 0.1);
 }
 
 .wrapper {
@@ -68,4 +70,20 @@ body{
   td {
     padding: 20px 0;
   }
+}
+
+.has-lines {
+  background-image: url('../img/lines.png');
+  background-size: auto 200px;
+  background-repeat: repeat-x;
+}
+
+.is-grey {
+  background: $grey;
+}
+
+.logo {
+  width: 80%;
+  height: auto;
+  max-width: 250px;
 }

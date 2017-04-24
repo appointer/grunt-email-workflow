@@ -1,0 +1,39 @@
+---
+layout: default.hbs
+subject: Branded transaction email example
+---
+<span class="preheader">This is preheader text. Some clients will show this text as a preview.</span>
+<table class="main">
+  <tr>
+    <td class="wrapper">
+      <table>
+        <tr>
+          <td>
+            <h1>Hi Flo 👋🏻</h1>
+            <p>Cedric hat dich zur appointer Alpha-Phase eingeladen.  In dieser Phase erhalten eine begrenzte Anzahl
+              an  Nutzern Zugang zu unserem neu entwickelten  Terminfindungssystem! Du gehörst dazu!  Du kannst dich ab
+              sofort online oder aus unserer iOS  App mit dieser Emailadresse registrieren.  Du möchtest diese ändern? Das
+              bekommen wir auch hin!  Schreib uns einfach vor deiner Registrierung ah <a href="https://appointer.co/">hier</a>
+            </p>
+            <p>
+              Viel Spaß mit appointer und beste Grüße aus Münster
+              dein appointer Team!
+            </p>
+            {{> button url='https://app.appointer.co/register' title='jetzt registrieren' }}
+
+            {{> contactBatch url='https://app.appointer.co/register' contactName='Cedric Bals' contactEmail='mail@cedricbals.de' }}
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+<div class="footer">
+  <table>
+    <tr>
+      <td class="align-center">
+        <p>{{> follow_appointer }}</p>
+      </td>
+    </tr>
+  </table>
+</div>

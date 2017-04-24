@@ -1,0 +1,24 @@
+.contactbatch {
+
+  .background {
+    background-size: contain;
+    border-radius: 5px;
+  }
+
+  .contactinfo {
+    width: 100%;
+    padding: 25px;
+
+
+    .name {
+      margin-bottom: 0;
+      font-weight: 500;
+    }
+
+    .email {
+      margin-bottom: 0;
+      font-weight: 400;
+    }
+  }
+
+}

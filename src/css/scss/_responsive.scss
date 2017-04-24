@@ -7,14 +7,14 @@ table[class=body]{
 
     // Type
     h1,
-    h2,
-    h3,
+    h2,g
     h4 {
       font-weight: 600 !important;
     }
 
     h1 {
-      font-size: 22px !important;
+      font-size: 33px !important;
+      margin-bottom: 20px !important;
     }
 
     h2 {
@@ -32,7 +32,7 @@ table[class=body]{
     }
 
     .container {
-      padding: 0 !important;
+      padding: 15px 0 0 !important;
       width: 100% !important;
     }
 
@@ -40,6 +40,20 @@ table[class=body]{
     .btn table,
     .btn a {
       width: 100% !important;
+    }
+
+    // contactBatch
+    .contactinfo {
+
+      text-align: center!important;
+
+      .name {
+        font-weight: 500!important;
+      }
+
+      .email {
+        font-weight: 400!important;
+      }
     }
   }
 }
